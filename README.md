@@ -1,6 +1,6 @@
 # AI Q&A Bot
 
-This is an experiment, for reference only.
+This is an experiment, for reference only. Try here: https://newjersey.github.io/uibot/
 
 ![example of UIbot](docs/example.png)
 
@@ -46,4 +46,4 @@ python ask.py
 
 ## Chatbot example
 
-- simple chatbot hosted on github pages: https://newjersery.github.io/uibot/
+- simple chatbot hosted on github pages: https://newjersey.github.io/uibot/
