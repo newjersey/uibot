@@ -2,6 +2,8 @@
 
 This is an experiment, for reference only.
 
+![example of UIbot](docs/example.png)
+
 Q&A bot using [LlamaIndex](https://gpt-index.readthedocs.io/en/latest/). This is a simple implementation using OpenAI's models, but the documentation contains extensive customization options (including changing the LLM).
 
 ## Initial Setup
