@@ -33,10 +33,62 @@
     </style>
   </head>
   <body>
-    <div
-      class="grid-container usa-prose"
-      style="padding-top: 2em; padding-bottom: 2em"
-    >
+    <a class="usa-skipnav" href="#main-content">Skip to main content</a>
+
+    <section class="nj-banner" aria-label="Official government website">
+      <header class="nj-banner__header">
+        <div class="grid-container">
+          <div class="nj-banner__inner">
+            <div class="grid-col-auto">
+              <img
+                class="nj-banner__header-seal"
+                src="https://innovation.nj.gov/app/njwds/dist/img/nj_state_seal.png"
+                alt="NJ flag"
+              />
+            </div>
+            <div class="grid-col-fill">
+              <a href="https://nj.gov"
+                >Official Site of the State of New Jersey</a
+              >
+            </div>
+            <div class="grid-col-auto">
+              <div class="text-white">
+                <ul>
+                  <li>
+                    Governor Phil Murphy &bull; Lt. Governor Sheila Oliver
+                  </li>
+                  <li>
+                    <a href="https://nj.gov/subscribe/" target="_blank"
+                      ><svg
+                        class="usa-icon bottom-neg-2px margin-right-05"
+                        aria-hidden="true"
+                        focusable="false"
+                        role="img"
+                      >
+                        <use
+                          xlink:href="https://innovation.nj.gov/app/njwds/dist/img/sprite.svg#mail"
+                        ></use></svg
+                      >Get Updates</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+    </section>
+
+    <div class="grid-container usa-prose padding-y-4">
+      <div class="usa-alert usa-alert--info usa-alert--slim usa-alert--no-icon">
+        <div class="usa-alert__body">
+          <p class="usa-alert__text">
+            This is an experimental chatbot that uses OpenAI's GPT-3.5-turbo
+            model, with MyUnemployment.NJ.gov content and the PR-94 2020
+            embedded for context.
+          </p>
+        </div>
+      </div>
       <h1>UI Bot</h1>
 
       <div id="chat-container"></div>
@@ -53,6 +105,7 @@
         <div id="loader" class="loader"></div>
       </form>
     </div>
+
     <script>
       $(document).ready(function () {
         // Event handler for the chat form submission
