@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>UI Bot</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://innovation.nj.gov/app/njwds/dist/css/styles.css"
+    />
+    <style>
+      .loader {
+        border: 4px solid #f3f3f3;
+        border-top: 4px solid #3498db;
+        border-radius: 50%;
+        width: 20px;
+        height: 20px;
+        animation: spin 1s linear infinite;
+        margin-right: 10px;
+        display: none;
+      }
+      .show {
+        display: inline-block;
+      }
+
+      @keyframes spin {
+        0% {
+          transform: rotate(0deg);
+        }
+        100% {
+          transform: rotate(360deg);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div
+      class="grid-container usa-prose"
+      style="padding-top: 2em; padding-bottom: 2em"
+    >
+      <h1>UI Bot</h1>
+
+      <div id="chat-container"></div>
+
+      <form id="chat-form" class="usa-form">
+        <label class="usa-label" for="user-input">Enter your question:</label>
+        <input
+          class="usa-input"
+          type="text"
+          id="user-input"
+          placeholder="Type your question here"
+        />
+        <button class="usa-button" type="submit">Send</button>
+        <div id="loader" class="loader"></div>
+      </form>
+    </div>
+    <script>
+      $(document).ready(function () {
+        // Event handler for the chat form submission
+        $("#chat-form").submit(function (event) {
+          event.preventDefault();
+          var question = $("#user-input").val();
+          if (question.trim() !== "") {
+            sendQuestion(question);
+          }
+        });
+
+        // Function to send the user's question to the API
+        function sendQuestion(question) {
+          var apiUrl =
+            "https://bikdpczvid.execute-api.us-east-1.amazonaws.com/uibot/ask";
+          var queryParams = "?question=" + encodeURIComponent(question);
+
+          // Show the loading indicator
+          $("#loader").toggleClass("show", true);
+
+          // Show the prompt
+          displayPrompt(question);
+
+          $.getJSON(apiUrl + queryParams, function (response) {
+            displayResponse(response.answer);
+          })
+            .fail(function (err) {
+              displayResponse("Oops! Something went wrong.");
+            })
+            .always(function () {
+              // Hide the loading indicator
+              $("#loader").toggleClass("show", false);
+            });
+        }
+
+        // Function to display the prompt in the chat container
+        function displayPrompt(prompt) {
+          var chatContainer = $("#chat-container");
+          var promptElement = $("<small>")
+            .addClass(
+              "border-left-05 margin-top-4 padding-left-1 display-block border-primary-lighter"
+            )
+            .text(prompt);
+
+          chatContainer.append(promptElement);
+        }
+
+        // Function to display the response in the chat container
+        function displayResponse(response) {
+          var chatContainer = $("#chat-container");
+          var responseElement = $("<p>").text(response);
+
+          chatContainer.append(responseElement);
+          chatContainer.scrollTop(chatContainer.prop("scrollHeight"));
+
+          // Clear the user input field
+          $("#user-input").val("");
+        }
+      });
+    </script>
+  </body>
+</html>

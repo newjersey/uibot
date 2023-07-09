@@ -1,0 +1,33 @@
+service: ui-bot # NOTE: update this with your service name
+
+frameworkVersion: "3"
+
+provider:
+  name: aws
+  runtime: python3.10
+  memorySize: 2048
+  timeout: 28
+  architecture: arm64
+  deploymentBucket:
+    serverSideEncryption: AES256
+  environment:
+    OPENAI_API_KEY: ${ssm:openaiApiKey}
+  ecr:
+    images:
+      uibot:
+        path: ./
+  httpApi:
+    cors: true
+
+functions:
+  ask:
+    image:
+      name: uibot
+      command:
+        - handler.ask
+      entryPoint:
+        - "/lambda-entrypoint.sh"
+    events:
+      - httpApi:
+          path: /uibot/ask
+          method: get
