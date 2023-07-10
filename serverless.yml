@@ -15,12 +15,14 @@ provider:
   ecr:
     images:
       uibot:
-        path: ./
+        path: src/ui/
+      anchorbot:
+        path: src/anchor/
   httpApi:
     cors: true
 
 functions:
-  ask:
+  ui:
     image:
       name: uibot
       command:
@@ -30,4 +32,15 @@ functions:
     events:
       - httpApi:
           path: /uibot/ask
+          method: get
+  anchor:
+    image:
+      name: anchorbot
+      command:
+        - handler.ask
+      entryPoint:
+        - "/lambda-entrypoint.sh"
+    events:
+      - httpApi:
+          path: /anchorbot/ask
           method: get

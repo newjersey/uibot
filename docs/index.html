@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>UI Bot</title>
+    <title>AI Bots</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
@@ -82,91 +82,11 @@
     </section>
 
     <div class="grid-container usa-prose padding-y-4">
-      <div class="usa-alert usa-alert--info usa-alert--slim usa-alert--no-icon">
-        <div class="usa-alert__body">
-          <p class="usa-alert__text">
-            This is an experimental chatbot that uses OpenAI's GPT-3.5-turbo
-            model, with MyUnemployment.NJ.gov content and the PR-94 2020
-            embedded for context.
-          </p>
-        </div>
-      </div>
-      <h1>UI Bot</h1>
-
-      <div id="chat-container"></div>
-
-      <form id="chat-form" class="usa-form">
-        <label class="usa-label" for="user-input">Enter your question:</label>
-        <input
-          class="usa-input"
-          type="text"
-          id="user-input"
-          placeholder="Type your question here"
-        />
-        <button class="usa-button" type="submit">Send</button>
-        <div id="loader" class="loader"></div>
-      </form>
+      <h1>AI Bots</h1>
+      <ul class="usa-list">
+        <li><a href="ui/">UI Bot</li>
+        <li><a href="anchor/">ANCHOR Bot</li>
+      </ul>
     </div>
-
-    <script>
-      $(document).ready(function () {
-        // Event handler for the chat form submission
-        $("#chat-form").submit(function (event) {
-          event.preventDefault();
-          var question = $("#user-input").val();
-          if (question.trim() !== "") {
-            sendQuestion(question);
-          }
-        });
-
-        // Function to send the user's question to the API
-        function sendQuestion(question) {
-          var apiUrl =
-            "https://bikdpczvid.execute-api.us-east-1.amazonaws.com/uibot/ask";
-          var queryParams = "?question=" + encodeURIComponent(question);
-
-          // Show the loading indicator
-          $("#loader").toggleClass("show", true);
-
-          // Show the prompt
-          displayPrompt(question);
-
-          $.getJSON(apiUrl + queryParams, function (response) {
-            displayResponse(response.answer);
-          })
-            .fail(function (err) {
-              displayResponse("Oops! Something went wrong.");
-            })
-            .always(function () {
-              // Hide the loading indicator
-              $("#loader").toggleClass("show", false);
-            });
-        }
-
-        // Function to display the prompt in the chat container
-        function displayPrompt(prompt) {
-          var chatContainer = $("#chat-container");
-          var promptElement = $("<small>")
-            .addClass(
-              "border-left-05 margin-top-4 padding-left-1 display-block border-primary-lighter"
-            )
-            .text(prompt);
-
-          chatContainer.append(promptElement);
-        }
-
-        // Function to display the response in the chat container
-        function displayResponse(response) {
-          var chatContainer = $("#chat-container");
-          var responseElement = $("<p>").text(response);
-
-          chatContainer.append(responseElement);
-          chatContainer.scrollTop(chatContainer.prop("scrollHeight"));
-
-          // Clear the user input field
-          $("#user-input").val("");
-        }
-      });
-    </script>
   </body>
 </html>
