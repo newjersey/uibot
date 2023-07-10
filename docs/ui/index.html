@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>UI Bot</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://innovation.nj.gov/app/njwds/dist/css/styles.css"
+    />
+    <style>
+      .loader {
+        border: 4px solid #f3f3f3;
+        border-top: 4px solid #3498db;
+        border-radius: 50%;
+        width: 20px;
+        height: 20px;
+        animation: spin 1s linear infinite;
+        margin-right: 10px;
+        display: none;
+      }
+      .show {
+        display: inline-block;
+      }
+
+      @keyframes spin {
+        0% {
+          transform: rotate(0deg);
+        }
+        100% {
+          transform: rotate(360deg);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <a class="usa-skipnav" href="#main-content">Skip to main content</a>
+
+    <section class="nj-banner" aria-label="Official government website">
+      <header class="nj-banner__header">
+        <div class="grid-container">
+          <div class="nj-banner__inner">
+            <div class="grid-col-auto">
+              <img
+                class="nj-banner__header-seal"
+                src="https://innovation.nj.gov/app/njwds/dist/img/nj_state_seal.png"
+                alt="NJ flag"
+              />
+            </div>
+            <div class="grid-col-fill">
+              <a href="https://nj.gov"
+                >Official Site of the State of New Jersey</a
+              >
+            </div>
+            <div class="grid-col-auto">
+              <div class="text-white">
+                <ul>
+                  <li>
+                    Governor Phil Murphy &bull; Lt. Governor Sheila Oliver
+                  </li>
+                  <li>
+                    <a href="https://nj.gov/subscribe/" target="_blank"
+                      ><svg
+                        class="usa-icon bottom-neg-2px margin-right-05"
+                        aria-hidden="true"
+                        focusable="false"
+                        role="img"
+                      >
+                        <use
+                          xlink:href="https://innovation.nj.gov/app/njwds/dist/img/sprite.svg#mail"
+                        ></use></svg
+                      >Get Updates</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+    </section>
+
+    <div class="grid-container usa-prose padding-y-4">
+      <div class="usa-alert usa-alert--info usa-alert--slim usa-alert--no-icon">
+        <div class="usa-alert__body">
+          <p class="usa-alert__text">
+            This is an experimental chatbot that uses OpenAI's GPT-3.5-turbo
+            model, with MyUnemployment.NJ.gov content and the PR-94 2020
+            embedded for context.
+          </p>
+        </div>
+      </div>
+      <h1>UI Bot</h1>
+
+      <div id="chat-container"></div>
+
+      <form id="chat-form" class="usa-form">
+        <label class="usa-label" for="user-input">Enter your question:</label>
+        <input
+          class="usa-input"
+          type="text"
+          id="user-input"
+          placeholder="Type your question here"
+        />
+        <button class="usa-button" type="submit">Send</button>
+        <div id="loader" class="loader"></div>
+      </form>
+    </div>
+
+    <script>
+      $(document).ready(function () {
+        // Event handler for the chat form submission
+        $("#chat-form").submit(function (event) {
+          event.preventDefault();
+          var question = $("#user-input").val();
+          if (question.trim() !== "") {
+            sendQuestion(question);
+          }
+        });
+
+        // Function to send the user's question to the API
+        function sendQuestion(question) {
+          var apiUrl =
+            "https://bikdpczvid.execute-api.us-east-1.amazonaws.com/uibot/ask";
+          var queryParams = "?question=" + encodeURIComponent(question);
+
+          // Show the loading indicator
+          $("#loader").toggleClass("show", true);
+
+          // Show the prompt
+          displayPrompt(question);
+
+          $.getJSON(apiUrl + queryParams, function (response) {
+            displayResponse(response.answer);
+          })
+            .fail(function (err) {
+              displayResponse("Oops! Something went wrong.");
+            })
+            .always(function () {
+              // Hide the loading indicator
+              $("#loader").toggleClass("show", false);
+            });
+        }
+
+        // Function to display the prompt in the chat container
+        function displayPrompt(prompt) {
+          var chatContainer = $("#chat-container");
+          var promptElement = $("<small>")
+            .addClass(
+              "border-left-05 margin-top-4 padding-left-1 display-block border-primary-lighter"
+            )
+            .text(prompt);
+
+          chatContainer.append(promptElement);
+        }
+
+        // Function to display the response in the chat container
+        function displayResponse(response) {
+          var chatContainer = $("#chat-container");
+          var responseElement = $("<p>").text(response);
+
+          chatContainer.append(responseElement);
+          chatContainer.scrollTop(chatContainer.prop("scrollHeight"));
+
+          // Clear the user input field
+          $("#user-input").val("");
+        }
+      });
+    </script>
+  </body>
+</html>
