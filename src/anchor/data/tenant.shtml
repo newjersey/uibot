@@ -1,0 +1,1007 @@
+<!DOCTYPE html>
+<html>
+<head><script src="/Sprighter-a-newly-of-my-Louer-Entermittlemaine-I" async></script>
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta name="Keywords" content="Treasury, Division of Taxation, Affordable New Jersey Communities for Homeowners and Renters, ANCHOR, property tax relief, tenant, renters, tenant benefit" />
+<meta name="Description" content="The Affordable New Jersey Communities for Homeowners and Renters (ANCHOR) program replaces the Homestead Benefit.  ANCHOR Tenant Information."/>
+<title>NJ Division of Taxation - Tenants</title>
+
+	<link rel="stylesheet" href="/nj/design/css/bootstrap.min.css" />
+		
+	<link href="/nj/design/css/sonj-components.css" rel="stylesheet" type="text/css" />
+
+	<link href="/nj/design/css/site-base.css" rel="stylesheet" type="text/css" />
+	
+	<link rel="stylesheet" type="text/css" href="/nj/design/util/slick/slick.css" />
+
+	<link rel="stylesheet" type="text/css" href="/nj/design/util/slick/slick-theme.css" /> 
+<link href="/treasury/assets/css/treas-base.css" rel="stylesheet" type="text/css"  />
+<link href="/treasury/assets/govicons/css/govicons.min.css" rel="stylesheet" type="text/css">
+<link href="/treasury/assets/fonts/themify-icons/themify-icons.css" rel="stylesheet" type="text/css">
+<div class="container-fluid">
+		<a id="back-to-top" href="#" class="btn btn-lg back-to-top" role="button" title=""><i class="fas fa-chevron-up"></i><br>Back<br>to top</a>
+	
+</div>
+<link rel="stylesheet" type="text/css" href="/treasury/assets/datatable4/DataTables-1.10.18/css/jquery.dataTables.css"/>
+<link rel="stylesheet" type="text/css" href="/treasury/assets/datatable4/AutoFill-2.3.0/css/autoFill.dataTables.min.css"/>
+<link rel="stylesheet" type="text/css" href="/treasury/assets/datatable4/Buttons-1.5.2/css/buttons.dataTables.css"/>
+<link rel="stylesheet" type="text/css" href="/treasury/assets/datatable4/ColReorder-1.5.0/css/colReorder.dataTables.css"/>
+<link rel="stylesheet" type="text/css" href="/treasury/assets/datatable4/FixedColumns-3.2.5/css/fixedColumns.dataTables.css"/>
+<link rel="stylesheet" type="text/css" href="/treasury/assets/datatable4/FixedHeader-3.1.4/css/fixedHeader.dataTables.css"/>
+<link rel="stylesheet" type="text/css" href="/treasury/assets/datatable4/KeyTable-2.4.0/css/keyTable.dataTables.css"/>
+<link rel="stylesheet" type="text/css" href="/treasury/assets/datatable4/Responsive-2.2.2/css/responsive.dataTables.css"/>
+<link rel="stylesheet" type="text/css" href="/treasury/assets/datatable4/RowGroup-1.0.3/css/rowGroup.dataTables.css"/>
+<link rel="stylesheet" type="text/css" href="/treasury/assets/datatable4/RowReorder-1.2.4/css/rowReorder.dataTables.css"/>
+<link rel="stylesheet" type="text/css" href="/treasury/assets/datatable4/Scroller-1.5.0/css/scroller.dataTables.css"/>
+<link rel="stylesheet" type="text/css" href="/treasury/assets/datatable4/Select-1.2.6/css/select.dataTables.css"/>	
+<link rel="stylesheet" href="//use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+<style type="text/css">
+table.display tbody tr:nth-child(even):hover td {
+    background-color: #ccd6e0 !important;
+}
+table.display tbody tr:nth-child(odd):hover td {
+    background-color: #ccd6e0 !important;
+}
+</style>
+</head><body data-pnav="home">
+	
+	
+<header class="sonj  ">
+	<div class="container-fluid">
+		<div class="row justify-content-center">
+			<div id="logo" class="col-sm-8 col-lg-5 col-xl-5">
+				<h1 class="my-2"><img src="/nj/design/images/state_seal_white.png" alt="State of New Jersey Seal" title="">Official Site of The State of New Jersey</h1>
+			</div>
+			<div class=" col-sm-4 col-lg-5 col-xl-5">
+			  <div class="gov-bar text-right d-none d-lg-block"><a href="https://nj.gov/governor/" target="_blank">Governor Phil Murphy &bull; Lt. Governor Sheila Oliver</a> </div>
+			  <ul  class="my-sm-2 my-lg-0 social statewide text-right">
+				<li class="d-none d-lg-inline"><a href="https://nj.gov">NJ.gov</a></li>
+				<li class="d-none d-lg-inline"><a href="https://nj.gov/nj/gov/njgov/alphaserv.html">Services</a></li>
+				<li class="d-none d-lg-inline"><a href="https://nj.gov/nj/gov/deptserv/">Agencies</a></li>
+				<li class="d-none d-lg-inline"><a href="https://nj.gov/faqs/"  aria-label="Frequently asked questions"><span aria-hidden="true">FAQs</span><span class="sr-only">Frequently Asked Questions</span></a></li>
+				<li class="sonj-translate">
+					<a href="https://translate.google.com/">Translate</a>
+					<div class="drop px-4 pb-3">
+
+						<div id="google_translate_element"></div><script type="text/javascript">
+						function googleTranslateElementInit() {
+						  new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.VERTICAL}, 'google_translate_element');
+						}
+						</script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+						<p class="disclaimer pt-3">The State of NJ site may contain optional links, information, services and/or content from other websites operated by third parties that are provided as a convenience, such as Google™ Translate. Google™ Translate is an online service for which the user pays nothing to obtain a purported language translation. The user is on notice that neither the State of NJ site nor its operators review any of the services, information and/or content from anything that may be linked to the State of NJ site for any reason. -<a href="https://nj.gov/nj/home/disclaimer.html" target="_blank"><strong>Read Full Disclaimer <i class="fas fa-link"></i></strong></a></p>
+						<button type="button" class="pl-0 btn btn-link float-left drop-close"><i class="fas fa-times-circle"></i> close</button>
+					</div>
+				</li>
+				<!-- Add sign up header menu item -->
+				<li class="sonj-updates">
+					<a href="https://nj.gov/subscribe/" id="updates-label"  role="button">Get Updates <i class="fas fa-envelope"></i></a>
+					<div class="drop px-4 pb-3 pt-3 text-left">
+						<script src="https://beta.nj.gov/global-signup/embed.js"></script>
+						<div class="global-signup-header pb-5"></div>
+						<button type="button" class="pl-0 btn btn-link drop-close" ><i class="fas fa-times-circle"></i> close</button>
+					</div>
+				</li>
+				<li class="sonj-search">
+					<a href="https://nj.gov/search/" id="search-label"  role="button">Search <i class="fas fa-search"></i></a>
+					<div class="drop px-4 pb-3">
+						<form id="search" action="https://nj.gov/search/" name="search">
+							<div class="input-group pt-4">
+								<input type="text" class="form-control p-1" placeholder="Type Search Here" aria-label="Search Query" aria-describedby="search-label" name="qt" id="qt">
+								<div class="input-group-append">
+									<button type="submit" class="input-group-text"  aria-label="Submit Search"><i class="fas fa-search"></i></button>
+								</div>
+							</div>
+						</form>
+						<button type="button" class="pl-0 btn btn-link float-left drop-close"><i class="fas fa-times-circle"></i> close</button>
+					</div>
+				</li>
+			  </ul>
+			</div>
+		</div>
+	</div>
+</header>
+
+
+
+	<div class="container-fluid treas-nav"> 
+	<div class="row justify-content-center ">
+		<div id="" class="col-12 col-xl-10">
+<nav class="navbar diasabled-navbar-expand-lg navbar-dark x-bg-light px-0 justify-content-between">
+  <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+  <h2 class="navbar-brand x-mr-auto diasbled-d-lg-none" href="#"><a href="//www.nj.gov/treasury/index.shtml" style="text-decoration: none" class="text-white">NJ Treasury</a></h2>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto x-nav-pills">
+      <li class="nav-item pr-4">
+        <a class="nav-link" href="//www.nj.gov/treasury/">Treasury <i class="fas fa-home"></i></a>
+      </li>
+      <li class="nav-item dropdown pr-4 columned-parent" id="Treas-pNav2" data-pnav="divisions-agencies"><a class="nav-link dropdown-toggle" href="#" data-sNav_scalar="3" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >Divisions / Agencies</a>
+              <ul class="dropdown-menu columned" aria-labelledby="Treas-pNav2">
+	
+                <li><a class="dropdown-item"><strong>Divisions</strong></a>
+                  <ul>
+					<li><a class="dropdown-item" href="/treasury/administration/" target="_blank"> Administration</a></li>
+                    <li><a class="dropdown-item" href="/treasury/doinvest/" target="_blank"> Investment</a></li>
+                    <li><a class="dropdown-item" href="/treasury/economics/" target="_blank"> Office of Revenue and Economic Analysis</a></li>
+                    <li><a class="dropdown-item" href="/treasury/omb/" target="_blank"> Office of Management and Budget</a></li>
+                    <li><a class="dropdown-item" href="https://www.njlottery.com/" target="_blank"> Lottery</a></li>
+                    <li><a class="dropdown-item" href="/treasury/pensions/" target="_blank"> Pensions and Benefits</a></li>
+                    <li><a class="dropdown-item" href="/treasury/dpmc/" target="_blank"> Property Management and Construction</a></li>
+                    <li><a class="dropdown-item" href="/treasury/contract_compliance/" target="_blank"> Public Contracts EEO Compliance</a></li>
+                    <li><a class="dropdown-item" href="/treasury/public_finance/" target="_blank"> Public Finance</a></li>
+                    <li><a class="dropdown-item" href="/treasury/purchase/" target="_blank"> Purchase and Property</a></li>
+                    <li><a class="dropdown-item" href="/treasury/revenue/" target="_blank"> Revenue and Enterprise Services</a></li>
+                    <li><a class="dropdown-item" href="/treasury/riskmgt/" target="_blank"> Risk Management</a></li>
+                    
+					<li><a class="dropdown-item" href="/treasury/taxation/" target="_blank"> Taxation</a></li>
+                   </ul>
+                </li>
+                <li><a class="dropdown-item"><strong>Agencies</strong></a>
+                  <ul>
+                    <li><a class="dropdown-item" href="http://www.bpu.state.nj.us/" target="_blank"> Board of Public Utilities (BPU)</a></li>
+                    <li><a class="dropdown-item" href="//www.nj.gov/casinos" target="_blank" > Casino Control Commission (CCC)</a></li>
+                    <li><a class="dropdown-item" href="//www.nj.gov/rpa/" target="_blank" > Division of Rate Counsel</a></li>
+                    <li><a class="dropdown-item" href="http://www.njeda.com" target="_blank" > NJ Economic Development Authority</a></li>
+                    <li><a class="dropdown-item" href="//www.nj.gov/njba" target="_blank" > New Jersey Building Authority (NJBA)</a></li>
+                    <li><a class="dropdown-item" href="//www.nj.gov/treasury/njpba/" target="_blank" > New Jersey Public Broadcasting Authority</a></li>
+                    <li><a class="dropdown-item" href="//www.nj.gov/oal" target="_blank" > Office of Administrative Law (OAL)</a></li>
+                    <li><a class="dropdown-item" href="/treasury/diversity/" target="_blank" > Office of Diversity and Inclusion</a></li>
+                    <li><a class="dropdown-item" href="//www.nj.gov/defender" target="_blank" > Office of the Public Defender (OPD)</a></li>
+                    <li><a class="dropdown-item" href="//www.njleg.state.nj.us/committees/joint-committees" target="_blank" > State Capitol Joint Management Commission</a></li>
+                    <li><a class="dropdown-item" href="/treasury/statehouse-commission/" target="_blank" > State House Commission</a></li>
+                    <li><a class="dropdown-item" href="//www.unclaimedproperty.nj.gov" target="_blank" > Unclaimed Property Administration</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+	  <li class="nav-item dropdown pr-4">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Press Releases
+          </a>
+        <ul class="dropdown-menu" aria-labelledby="navbarDropdown PressReleases">
+			<div class="d-flex p-1">
+			  <div class="p-1">
+				<li><a class="dropdown-item" href="/treasury/news.shtml">Current</a></li>
+				<li><a class="dropdown-item" href="/treasury/newsarchive.shtml">Archived</a></li>
+                  <li><a class="dropdown-item" href="/treasury/media/index.shtml">Media Toolkits</a></li>
+			  </div>
+			 </div>
+          </ul>
+      </li>
+         <li class="nav-item pr-4" data-pnav="contact"> <a class="nav-link" href="/treasury/administration/job-op/index.shtml">Job Opportunities</a></li>
+        
+	  <li class="nav-item pr-4">
+        <a class="nav-link" href="/treasury/assets/contact/contact-treas.shtml">Contact Us</a></li>	
+   
+	  </ul>
+  </div>
+</nav>
+		</div>
+	</div>
+</div>
+	<!-- Empty until activated See "Active" example -->
+
+    <div class="container-fluid d-none d-lg-block">
+	<div class="row justify-content-center ">
+		<div id="site-name" class="department col-12 col-xl-10 py-3">
+			
+			<h2 class=""><img src="/treasury/assets/img/taxation/taxation-logo.png" alt="NJ Taxation Logo" title="" class="dept-logo pr-1"><span class="align-middle department">Division of Taxation</span></h2>
+		</div>
+	</div>
+</div>
+	<div class="container-fluid treas-nav"> 
+	<div class="row justify-content-center">
+		<div id="" class="col-12 col-xl-10">
+<nav class="navbar navbar-expand-lg navbar-dark x-bg-light px-0 justify-content-between">
+  <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+  <h2 class="navbar-brand x-mr-auto d-lg-none" href="//www.state.nj.us/treasury/taxation/">NJ Taxation </h2>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent2" aria-controls="navbarSupportedContent2" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+	
+	  <div class="collapse navbar-collapse" id="navbarSupportedContent2">
+    <ul class="navbar-nav mr-auto x-nav-pills">
+      <li class="nav-item pr-4">
+        <a class="nav-link" href="/treasury/taxation/index.shtml">Taxation <i class="fas fa-home"></i></a>
+      </li>
+        
+        <li class="nav-item pr-4">
+        <a class="nav-link" href="/treasury/taxation/forms/efile.shtml">E-File</a>
+      </li>
+        <li class="nav-item pr-4">
+        <a class="nav-link" href="/treasury/taxation/payments-notices.shtml">Pay Tax</a>
+      </li>
+       <li class="nav-item pr-4">
+        <a class="nav-link" href="/treasury/taxation/forms/index.shtml">Forms</a>
+      </li> 
+        
+      <li class="nav-item pr-4">
+        <a class="nav-link" href="/treasury/taxation/individuals/index.shtml">Individuals</a>
+      </li>  
+      <li class="nav-item pr-4">
+        <a class="nav-link" href="/treasury/taxation/relief.shtml">Property Tax Relief</a>
+      </li>  
+      <li class="nav-item pr-4">
+        <a class="nav-link" href="/treasury/taxation/businesses/index.shtml">Businesses</a>
+      </li>  
+      <li class="nav-item pr-4">
+        <a class="nav-link" href="/treasury/taxation/individuals/taxprofessionals.shtml">Tax Professionals</a>
+      </li>  
+        
+ <li class="nav-item pr-4">
+        <a class="nav-link" href="/treasury/taxation/help/index.shtml">Resources</a>
+      </li> 
+     
+		
+        <li class="nav-item pr-4">
+        <a class="nav-link" href="/treasury/taxation/contact.shtml">Contact Us</a>
+      </li>
+	  </ul>
+  </div>
+</nav>
+		</div>
+	</div>
+</div>
+		
+	         
+	
+	<div class="x-container-fluid d-none d-sm-inline sticky-social">
+	<!--
+	<div class="row justify-content-end">
+		<div class="col-sm-1 p-0">
+	-->
+			<a href="" class="toggle-sticky"><i class="fas fa-angle-double-right fa-1x sonj-gray toggle-target"></i><i class="fas fa-angle-double-left fa-1x sonj-gray d-none  toggle-target"></i></a>
+	       	
+	        <a href="https://twitter.com/nj_taxation" class=" toggle-target" target="_blank"><i class="fab fa-twitter-square fa-2x sonj-gray"></i></a> 
+			<a href="https://www.facebook.com/njtaxation/" class=" toggle-target" target="_blank"><i class="fab fa-facebook-square fa-2x sonj-gray"></i></a>
+    	    <a href="https://www.instagram.com/nj_taxation/" class=" toggle-target" target="_blank"><i class="fab fa-instagram fa-2x sonj-gray"></i></a> 	
+			<a href="https://www.youtube.com/c/NewJerseyDivisionofTaxation" class=" toggle-target"><i class="fab fa-youtube-square fa-2x sonj-gray"></i></a>
+			<a href="https://www.linkedin.com/company/njtaxation/" class=" toggle-target"><i class="fab fa-linkedin fa-2x sonj-gray"></i></a>	
+		<!--
+		</div>
+	</div>
+	-->
+</div>
+
+
+    <script src="https://d1eeq6qo8chy9e.cloudfront.net/lex-web-ui-loader.min.js"></script> 
+<script src="https://dzhvbu00ae3ow.cloudfront.net/lex-web-ui-loader.min.js"></script>
+<script src="https://d2kqkjzensw6el.cloudfront.net/lex-web-ui-loader.min.js"></script>				
+      <script>
+ switch (window.location.origin){
+  case "https://www.state.nj.us": 
+   var loaderOpts = {
+    baseUrl: 'https://d1eeq6qo8chy9e.cloudfront.net/',
+    shouldLoadMinDeps: true
+  };
+  var loader = new ChatBotUiLoader.IframeLoader(loaderOpts);
+  var chatbotUiConfig = {
+          /* Example of setting session attributes on parent page
+          lex: {
+            sessionAttributes: {
+              userAgent: navigator.userAgent,
+              QNAClientFilter: ''
+            }
+          }
+          */
+        };
+  loader.load(chatbotUiConfig)
+    .catch(function (error) { console.error(error); });
+       break;
+  case "https://www.nj.gov": 
+   var loaderOpts = {
+ baseUrl: 'https://d2kqkjzensw6el.cloudfront.net/',
+	   shouldLoadMinDeps: true
+  };
+  var loader = new ChatBotUiLoader.IframeLoader(loaderOpts);
+  var chatbotUiConfig = {
+          /* Example of setting session attributes on parent page
+          lex: {
+            sessionAttributes: {
+              userAgent: navigator.userAgent,
+              QNAClientFilter: ''
+            }
+          }
+          */
+        };
+  loader.load(chatbotUiConfig)
+    .catch(function (error) { console.error(error); });
+       break;
+		 
+      case "https://nj.gov": 
+         var loaderOpts = {
+    baseUrl: 'https://dzhvbu00ae3ow.cloudfront.net/',
+    shouldLoadMinDeps: true
+  };
+  var loader = new ChatBotUiLoader.IframeLoader(loaderOpts);
+  var chatbotUiConfig = {
+          /* Example of setting session attributes on parent page
+          lex: {
+            sessionAttributes: {
+              userAgent: navigator.userAgent,
+              QNAClientFilter: ''
+            }
+          }
+          */
+        };
+  loader.load(chatbotUiConfig)
+    .catch(function (error) { console.error(error); });                 }
+      </script> 							
+    <!-- Empty until activated See "Active" example -->
+<!--
+	<div class="container-fluid alert" role="alert" id="{DEPT-CODE}-alert" style="background-color: #fff1d0"> ID can/should be used in Cookie to keep this alert closed  
+	  <div class="row justify-content-center">
+		<div id="" class="col-sm-12 col-lg-12 col-xl-10">
+				
+			<div class="wrapper ml-5">
+				<center>Beginning at noon on Friday, March 10, 2023, our Contact Us email options will be suspended due to system upgrades. Upgrades are expected to be completed by 8:00 a.m. Tuesday, March 14, 2023</center>
+
+			</div>
+		</div>
+	  </div>
+	</div>
+-->
+<!-- Empty until activated See "Active" example -->
+	
+
+<!--
+<div class="container-fluid alert alert-info dept-alert mb-3" role="alert" id="{DEPT-CODE}-alert">
+    <div class="row justify-content-center">
+    <div id="div" class="col-sm-12 col-lg-12 col-xl-12">
+      <div class="row justify-content-center">
+     
+        <div class="col-xl-10 col-lg-10 col-md-10 col-sm-10 col-xs-10"> 
+		 <h5><center>Our general email and tax practitioner email contacts are currently experiencing technical difficulties.  <br>We do not have a time frame when this will be corrected.  Please check back periodically for updates.</center>
+</h5>
+          
+</div>
+		  
+		
+      </div>
+    </div>
+  </div>
+</div>
+-->
+<div class="container-fluid background-white">
+  <div class="row x-no-gutters justify-content-center">
+    <div class="col-lg-10 col-xl-10">
+      <nav aria-label="breadcrumb" role="navigation" class="breadnav hidden-sm-down">
+        <ol class="breadcrumb mt-0 ml-0  w-100">
+          <li class="breadcrumb-item"><a href="../index.shtml">Home</a></li>
+          <li class="breadcrumb-item"><a href="../adminby.shtml">All Taxes</a></li>
+          <li class="breadcrumb-item"><a href="../relief.shtml">Property Tax Relief Programs</a></li>
+          <li class="breadcrumb-item"><a href="index.shtml">ANCHOR Program</a></li>
+          <li class="breadcrumb-item">Renters/Tenants</li>
+        </ol>
+      </nav>
+      <h3 class="mb-5">Renters/Tenants</h3>
+      <p><strong>Filing deadline:</strong> February 28, 2023.</p>
+      <p>You are eligible for a 2019 ANCHOR benefit if you met these requirements:</p>
+      <ul>
+        <li>You were a New Jersey resident; and</li>
+        <li>Your 2019 New Jersey gross income was not more than $150,000; and</li>
+        <li>Your name was on the lease or rental agreement; and</li>
+        <li>You paid rent; and</li>
+        <li>You rented and occupied a residence in New Jersey that was your principal residence (main home) on October 1, 2019; and</li>
+        <li>The rental property was subject to local property taxes, (see Qualified and Non-Qualified Rental Properties).</li>
+      </ul>
+      <p><strong>When benefits will be paid:</strong></p>
+      <p><strong>We are currently issuing 2019 ANCHOR benefits and will continue to distribute payments through the month of May.</strong> ANCHOR benefits will be paid in the form of a direct deposit or check, not as credits to property tax bills. </p>
+      <p><strong>All property tax relief program information provided here is based on current law and is subject to change.</strong> </p>
+      <p><a href="#" data-toggle="modal" data-target="#myModal15">
+        <button type="button" class="btn bg-treas">Check Benefit Status</button>
+        </a></p>
+      
+      <!-- Begin Accordion -->
+      <div id="accordion">
+        <div class="card"> 
+          <!-- Two -->
+          <div id="accordion" class="accordion2">
+            <div class="card mb-0">
+              <div class="card-header collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo"> <a class="card-title" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo"> What You Need to File Online </a> </div>
+            </div>
+            <div id="collapseTwo" class="card-body collapse" data-parent="#accordion" >
+              <ul>
+                <li><a href="#" data-toggle="modal" data-target="#myModal2">Valid taxpayer identification number</a> and, if applicable, the taxpayer identification number of your spouse or civil union partner;</li>
+                <li>New Jersey gross income from Line 29 of your <a href="../pdf/other_forms/tgi-ee/2019/1040.pdf" target="_blank">2019 NJ-1040</a> <i class="fa fa-file-pdf text-pdf"></i>. (If you are not required to file an NJ-1040, report "0.");</li>
+                <li>2019 filing status;</li>
+                <li>Date of birth and, if applicable, your spouse's/CU partner's date of birth.</li>
+              </ul>
+              <p>You will also be asked if:</p>
+              <ul>
+                <li>If you/spouse/CU partner were blind/disabled as of December 31, 2019.</li>
+                <li>If you shared rent with anyone other than your spouse/partner on October 1, 2019.</li>
+                <li>For the names of all other renters/tenants, if any, sharing the rent on that property.</li>
+                <li>For your routing and account number from your bank if requesting a direct deposit of your benefit.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!-- two end --> 
+        <!-- six -->
+        <div id="accordion" class="accordion2">
+          <div class="card mb-0">
+            <div class="card-header collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseSix"> <a class="card-title" data-toggle="collapse" data-parent="#accordion" href="#collapseSix" aria-expanded="true" aria-controls="collapseSix">Gross Income</a> </a> </div>
+            <div id="collapseSix" class="card-body collapse" data-parent="#accordion" >
+              <p>You can find your gross income on line 29 of your 2019 NJ-1040 tax return. If you were not required to file a 2019 New Jersey Income Tax return, report zero as your gross income.</p>
+             
+            </div>
+          </div>
+        </div>
+        <!-- six end --> 
+        
+        <!-- A -->
+        <div id="accordion2" class="accordion2">
+          <div class="card mb-0">
+            <div class="card-header collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse3"> <a class="card-title" data-toggle="collapse" data-parent="#accordion" href="#collapse3" aria-expanded="true" aria-controls="collapse3">Name and Filing Status Guidance </a></div>
+            <div id="collapse3" class="card-body collapse" data-parent="#accordion">
+              <p>Refer to your filing status below for guidance on correctly entering your name.</p>
+              <!-- Begin Accordion -->
+              <div id="accordion">
+                <div class="card"> 
+                  <!-- <strong>One</strong> -->
+                  <div id="accordion2" class="accordion2">
+                    <div class="card mb-0">
+                      <div class="card-header collapsed" data-toggle="collapse" data-parent="#accordion2" href="#collapse42"> <a class="card-title" data-toggle="collapse" data-parent="#accordion2" href="#collapse42" aria-expanded="true" aria-controls="collapse42"> Single or Head of Household </a> </div>
+                    </div>
+                    <div id="collapse42" class="card-body collapse" data-parent="#accordion2" >
+                      <p>Enter your full name (last name, first name, middle initial) and corresponding filing status.</p>
+                    </div>
+                  </div>
+                </div>
+                <!-- B end --> 
+                <!-- C -->
+                <div id="accordion2" class="accordion2">
+                  <div class="card mb-0">
+                    <div class="card-header collapsed" data-toggle="collapse" data-parent="#accordion2" href="#collapse52"> <a class="card-title" data-toggle="collapse" data-parent="#accordion2" href="#collapse52" aria-expanded="true" aria-controls="collapse52"> Married/CU, Filing Joint Return </a></div>
+                    <div id="collapse52" class="card-body collapse" data-parent="#accordion2">
+                      <p><strong>Married or in a civil union on October 1, 2019, and both people maintained the same residence</strong></p>
+                      <p>Enter your last name, first name, and middle initial followed by your spouse/cu partner's first name (enter spouse/cu partner's last name if different) <strong>unless</strong> you want a separate payment for half the benefit amount. </p>
+                      <p>If you want to receive a separate payment for half of the ANCHOR benefit amount, enter:</p>
+                      <ul>
+                        <li>Only your full name (last name, first name, middle initial);</li>
+                        <li>Report your filing status as Married/CU, Filing Joint Return;</li>
+                        <li>Check the box requesting separate checks, and</li>
+                        <li>Combined 2019 gross income.</li>
+                      </ul>
+                      <p><strong>Note:</strong> Both partners must file a <strong>separate ANCHOR application to receive half the benefit payment.</strong></p>
+                      <p><strong>Married or in a civil union after October 1, 2019, but before January 1, 2020, and both people maintained the same residence</strong></p>
+                      <p>Enter your last name, first name, and middle initial followed by your spouse/cu partner's first name (enter spouse/cu partner's last name if different) <strong>unless</strong> you want a separate payment for half the benefit amount.</p>
+                      <p>If you want to receive a separate payment for half of the ANCHOR benefit amount, enter:</p>
+                      <ul>
+                        <li>Only your full name (last name, first name, middle initial);</li>
+                        <li>Report your filing status as Married/CU, Filing Joint Return;</li>
+                        <li>Check the box requesting separate checks, and</li>
+                        <li>Combined 2019 gross income.</li>
+                      </ul>
+                      <p><strong>Note:</strong> Both partners must file a <strong>separate ANCHOR application to receive half the benefit payment.</strong></p>
+                      <p><strong>Married or in a civil union after October 1, 2019, but before January 1, 2020, and only you resided in the rental property on October 1, 2019</strong></p>
+                      <p>You are eligible to file for the rental property in only your name since your spouse/CU partner did not occupy the rental property on October 1, 2019, but you must report your combined gross income. <strong>However,</strong> if your spouse/CU partner owned or rented a principal residence on October 1, 2019, as their main home in New Jersey, they should file an ANCHOR application for their main home. </p>
+                      <p>Enter:</p>
+                      <ul>
+                        <li>Only your full name (last name, first name, middle initial);</li>
+                        <li>Report your filing status as Married/CU, Filing Joint Return, and</li>
+                        <li>Your combined 2019 gross income.</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <!-- C end --> 
+                <!-- D -->
+                <div id="accordion2" class="accordion2">
+                  <div class="card mb-0">
+                    <div class="card-header collapsed" data-toggle="collapse" data-parent="#accordion2" href="#collapse62"> <a class="card-title" data-toggle="collapse" data-parent="#accordion2" href="#collapse62" aria-expanded="true" aria-controls="collapse6"> Married/CU, Filing Separate Return maintained same residence on October 1, 2019 </a> </div>
+                    <div id="collapse62" class="card-body collapse" data-parent="#accordion2" >
+                      <p>Since you and your spouse maintain the same residence, you may file only one application and receive one check (or direct deposit) for the full amount.</p>
+                      <p>Enter:</p>
+                      <ul>
+                        <li>Your name (last name, first name, middle initial) and the first name, middle initial of your spouse/CU partner (last name only if different);</li>
+                        <li>Your filing status as Married/CU, Filing Separate Return; and</li>
+                        <li>Your combined 2019 gross income.</li>
+                      </ul>
+                      <p>If you prefer to receive a separate check from your spouse for half of the benefit amount, you must each file separate applications.</p>
+                      <p>Enter:</p>
+                      <ul>
+                        <li>Only your name (last name, first name, middle initial);</li>
+                        <li>Your filing status as Married/CU, Filing Separate Return;</li>
+                        <li>Check the box requesting separate checks, and</li>
+                        <li>Combined 2019 gross income.</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <!-- D end --> 
+                <!-- E -->
+                <div id="accordion2" class="accordion2">
+                  <div class="card mb-0">
+                    <div class="card-header collapsed" data-toggle="collapse" data-parent="#accordion2" href="#collapse72"> <a class="card-title" data-toggle="collapse" data-parent="#accordion2" href="#collapse72" aria-expanded="true" aria-controls="collapse72"> Married/CU, Filing Separate Return maintained separate residences on October 1, 2019 </a> </div>
+                    <div id="collapse72" class="card-body collapse" data-parent="#accordion2" >
+                      <p>You each must file separate applications.</p>
+                      <p>Enter:</p>
+                      <ul>
+                        <li>Only your name (last name, first name, middle initial);</li>
+                        <li>Your filing status as Married/CU, Filing Separate Return;</li>
+                        <li>Only your 2019 gross income.</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <!-- Four End --> 
+              </div>
+              <!-- end Accordion --> 
+            </div>
+          </div>
+        </div>
+        <!-- three -->
+        <div id="accordion" class="accordion2">
+          <div class="card mb-0">
+            <div class="card-header collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse9"> <a class="card-title" data-toggle="collapse" data-parent="#accordion" href="#collapse9" aria-expanded="true" aria-controls="collapse9"> Deceased Renters/Tenants </a> </a> </div>
+            <div id="collapse9" class="card-body collapse" data-parent="#accordion" >
+              <p>If an eligible renter/tenant died before filing an application, either the surviving spouse/civil union partner or a personal representative should file the application.</p>
+              <p><strong>Surviving Spouse/Civil Union Partner.</strong> Enter only your name on the application, even if your spouse/partner died during 2019 and your filing status is married/CU couple, filing joint return.</p>
+              <p><strong>Personal Representative.</strong> If you are filing on behalf of an eligible renter/tenant who died on or after October 1, 2019, you must:</p>
+              <ul>
+                <li>Enter the decedent's last name, first name, and initial, followed by "estate of;" and</li>
+                <li>Enter the mailing address where the check is to be sent (if not choosing direct deposit); and</li>
+                <li>Check the box indicating the renter/tenant is deceased. You may be asked for documentation at a later date.</li>
+              </ul>
+              <p>A personal representative filing on behalf of a deceased renter/tenant  must sign in his or her official capacity. If it is a joint application, the surviving spouse/civil union partner must also sign (if filing by paper).</p>
+              <p>If there is no personal representative for the deceased renter/tenant, the spouse/CU partner signs the application and writes "Filing as Surviving Spouse" or "Filing as surviving Civil Union Partner" in the signature section (if filing by paper).</p>
+            </div>
+          </div>
+        </div>
+        <!-- three end --> 
+        <!-- OneA end -->
+        <div id="accordion">
+          <div class="card"> 
+            <!-- Begin Accordion --> 
+            <!-- OneB -->
+            <div id="accordion" class="accordion2">
+              <div class="card mb-0">
+                <div class="card-header collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseOne8"> <a class="card-title" data-toggle="collapse" data-parent="#accordion" href="#collapseOne8" aria-expanded="true" aria-controls="collapseOne8">Payment Information </a> </div>
+                <div id="collapseOne8" class="card-body collapse" data-parent="#accordion" >
+                  <p>You can have your benefit deposited directly into your account at a bank or other financial institution. If you do not provide account information for direct deposit, we will automatically issue a paper check to the address you provided on the application.</p>
+                  <p>Enter your banking information through the online filing system. Your bank routing number must be nine digits. The first two digits must be 01 through 12 or 21 through 32. Contact your financial institution to get the correct routing number if you are unsure. Your account number can be up to 17 digits (numbers only). Do not include hyphens, spaces, special symbols, and letters.</p>
+             
+                  <p><strong>Confirmation Number</strong></p>
+                  <p>To submit your application online, you must choose <strong>CONFIRM</strong> at the end to receive your confirmation number. Keep this number for your records as proof that you filed an ANCHOR application.</p>
+                  <p>Tenants filing paper applications will not receive confirmation numbers. Keep copies of your application for your records.</p>
+                </div>
+              </div>
+            </div>
+            <!-- OneB end --> 
+            <!-- One -->
+            <div id="accordion" class="accordion2">
+              <div class="card mb-0">
+                <div class="card-header collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseOne"> <a class="card-title" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Qualified and Non-Qualified Rental Properties </a> </div>
+              </div>
+              <div id="collapseOne" class="card-body collapse" data-parent="#accordion" >
+                <p>The address you use to claim the ANCHOR benefit must have been your main home on October 1, 2019. In general, your residence must have been subject to property tax.</p>
+                <p> <strong>Qualified Rental Properties</strong></p>
+                <p> <strong>P.I.L.O.T (Payment In Lieu Of Taxes)</strong>. There is one type of property that is exempt from the property tax requirement. Renters/Tenants who lived in rental units that operate under a P.I.L.O.T agreement with their municipality <strong>are eligible</strong> to apply for the ANCHOR benefit. </p>
+                <p></p>
+                <p><strong>Mobile Homes.</strong> If you owned or rented a mobile home that was located in a mobile home park, you are considered a renter/tenant for purposes of applying for the ANCHOR benefit.</p>
+                <p> <strong>Condominiums and Co-ops.</strong> If you rented a condominium unit or a unit in a cooperative housing complex, you are considered a renter/tenant for purposes of applying for the ANCHOR benefit.</p>
+                </p>
+                <strong>Non-Qualified Rental Properties</strong>
+                </p>
+                <p>Renters/Tenants who lived in the following types of residences <strong>do not</strong> qualify to apply for the ANCHOR benefit:
+                <ul>
+                  <li>Tax-exempt housing or other residences owned by New Jersey, county, municipal, or federal government; </li>
+                  <li>On-campus apartments at New Jersey colleges and universities; </li>
+                  <li> Residences owned by religious, charitable, or other non-profit organizations (including on-campus apartments at private nonprofit colleges and universities); and</li>
+                  <li>All other properties exempt from local property taxes.</li>
+                </ul>
+                </p>
+                </p>
+                If you are not sure whether the residence you rented was subject to local property taxes, contact your building manager or the municipal tax assessor for information.
+                </p>
+              </div>
+            </div>
+            <!--add--> 
+          </div>
+          <!--end add--> 
+        </div>
+        <!-- One end --> 
+        
+      </div>
+      <!-- end Accordion --> 
+      
+    </div>
+    <div class="container-fluid background-gray my-5">
+      <div class="row x-no-gutters justify-content-center">
+        <div class="col-lg-10 col-xl-10">
+          <div class="row my-5">
+            <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 col-xs-12">
+              <div class="card border-dark text-center d-block bg-treas same">
+                <div class="card-body bg-treas"> <a class="text-white" href="https://www1.state.nj.us/TYTR_Saver/jsp/common/HBWelcome.jsp" target="_blank">
+                  <p><i class="fas fa-mouse-pointer fa-3x "></i></p>
+                  <p>File Online</p>
+                  </a> </div>
+              </div>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 col-xs-12">
+              <div class="card border-dark text-center d-block bg-treas same">
+                <div class="card-body bg-treas"> <a class="text-white" href="../pdf/anchor/anchor-t.pdf" target="_blank">
+                  <p><i class="fas fa-copy fa-3x "></i></p>
+                  <p>ANCHOR-T&nbsp;<i class="fa fa-file-pdf text-white"></i><br>
+                    (Paper Application for Renters/Tenants)</p>
+                  </a> </div>
+              </div>
+            </div>
+            <!--card-->
+            <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 col-xs-12">
+              <div class="card border-dark text-center d-block bg-treas same">
+                <div class="card-body bg-treas"> <a class="text-white" href="tenant-calculated.shtml">
+                  <p><i class="fas fa-calculator fa-3x "></i></p>
+                  <p>How Benefits are Calculated and Paid </p>
+                  </a> </div>
+              </div>
+            </div>
+            <!--end card-->
+            <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 col-xs-12">
+              <div class="card border-dark text-center d-block bg-treas same">
+                <div class="card-body bg-treas"> <a class="text-white" href="tenant-faq.shtml">
+                  <p><i class="fas fa-question-circle fa-3x "></i></p>
+                  <p>Renter/Tenant FAQs</p>
+                  </a> </div>
+              </div>
+            </div>
+          </div>
+          <!--<div class="row my-5">
+               <!--card--> 
+          <!-- <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 col-xs-12">
+              <div class="card border-dark text-center d-block bg-treas same">
+                <div class="card-body bg-treas"> <a class="text-white" href="status.shtml">
+                  <p><i class="fas fa-user-clock fa-3x "></i></p>
+                  <p>Check Your Status</p>
+                  </a> </div>
+              </div>
+            </div>--> 
+          <!--end card--> 
+          <!--</div>--> 
+          
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+<!-- Modal -->
+<div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header bg-treas">
+        <h5 class="modal-title" id="exampleModalCenterTitle">Taxpayer Identification Number</h5>
+        <button type="button text-white" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true" style="color:#fff">&times;</span> </button>
+      </div>
+      <div class="modal-body"> In general, a valid taxpayer identification number can either be a Social Security number (SSN) or an Individual Taxpayer Identification Number (ITIN). </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--end modal--> 
+
+<!-- Modal15 -->
+<div class="modal fade" id="myModal15" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header bg-treas">
+        <h5 class="modal-title" id="exampleModalCenterTitle">Important</h5>
+        <button type="button text-white" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true" style="color:#fff">&times;</span> </button>
+      </div>
+      <div class="modal-body">
+        <p>If you filed <strong>online or by phone</strong>, allow up to two weeks from when you filed for information to be available. Paper applications can take up to 12 weeks to process.</p>
+      </div>
+      <div class="modal-footer"> <a href="https://www1.state.nj.us/TYTR_Saver/jsp/common/HRInquiry.jsp" target="_blank">
+        <button type="button" class="btn bg-treas">Continue</button>
+        </a> </div>
+    </div>
+  </div>
+</div>
+<!--end modal15-->
+
+<div align="center"><br>
+  Last Updated:  Friday, 05/12/23 </div>
+
+<footer class="footer site" > 
+  
+<div class="container-fluid background-footer-content">
+  <div class="row x-no-gutters justify-content-center my-3">
+    <div class="col-lg-8 col-xl-8">
+      <div class="card-deck">
+        <div class="card text-center border-white" style="background-color: #284259"> 
+			<a href="//www.state.nj.us/treasury/business.shtml"><img src="//www.state.nj.us/treasury/assets/img/biz-mobile-footer.jpg" alt="Biz Mobile Solutions" class="rounded img-fluid max-width"/></a> </div>
+		  
+        <div class="card text-center"> <a href="//nj.gov/treasury/public_finance/p3.shtml"><img src="//www.state.nj.us/treasury/assets/img/p3.jpg" alt="P3" alt="Public Private Partnership P3" class="rounded img-fluid max-width"/></a> </div>
+		  
+        <div class="card text-center"> <a href="https://nj.gov/governor/getcoverednj/"><img src="//www.state.nj.us/treasury/assets/img/getcoverednj.jpg" alt=" Get Covered NJ" class="rounded img-fluid max-width"/></a> </div>
+		  
+        <div class="card text-center border-white" style="background-color: #000106"> <a href="//njfinlit.enrich.org/landing/welcome-NewJerseyDepartmentoftheTreasury" target="_blank"><img src="//www.state.nj.us/treasury/assets/img/FinLitBottomLine.png" alt=" NJFinLit" class="rounded img-fluid max-width"/></a> </div>
+		  
+      </div>
+    </div>
+  </div>
+</div>
+
+  <div class="container-fluid">
+    <div class="row x-no-gutters justify-content-center">
+      <div class="col-lg-6 col-xl-6">
+        <h3><a href="//www.state.nj.us/treasury/taxation/">Division of Taxation</a></h3>
+        <style>
+
+</style>
+        <div class="columned">
+          <ul class="statewide d-inline-block">
+            
+            <li>
+        <a href="/treasury/taxation/index.shtml">Taxation <i class="fas fa-home"></i></a>
+      </li>
+        
+        <li>
+        <a href="/treasury/taxation/forms/efile.shtml">E-File</a>
+      </li>
+        <li>
+        <a href="/treasury/taxation/payments-notices.shtml">Pay Tax</a>
+      </li>
+       <li>
+        <a href="/treasury/taxation/forms/index.shtml">Forms</a>
+      </li> 
+        
+      <li>
+        <a href="/treasury/taxation/individuals/index.shtml">Individuals</a>
+      </li>  
+      <li >
+        <a href="/treasury/taxation/relief.shtml">Property Tax Relief</a>
+      </li>  
+      <li>
+        <a href="/treasury/taxation/businesses/index.shtml">Businesses</a>
+      </li>  
+      <li>
+        <a href="/treasury/taxation/individuals/taxprofessionals.shtml">Tax Professionals</a>
+      </li>  
+        
+ <li>
+        <a href="/treasury/taxation/help/index.shtml">Resources</a>
+      </li> 
+        
+		
+        <li>
+        <a href="/treasury/taxation/contact.shtml">Contact Us</a>
+      </li>
+          </ul>
+       
+          <ul class="statewide d-inline-block">
+            <li>
+              <h5>Rules &amp; Authority</h5>
+            </li>
+            <li><a href="//www.nj.gov/treasury/rulesamend.shtml">Proposed Rules</a></li>
+            <li><a href="//www.nj.gov/treasury/reports.shtml">Reports</a></li>
+            <li><a href="//www.nj.gov/treasury/assets/contact/contact-treascomments.shtml">Rule Comments</a></li>
+            <li><a href="/treasury/taxation/rules.shtml">Rule e-Notification</a></li>
+            <li><a href="//www.nj.gov/treasury/statutes.shtml">Statutes & Rules</a></li>
+          </ul>
+          </li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-lg-2 col-xl-2"> 
+        
+<h3>Treasury</h3>
+<ul class="statewide d-inline-block float-left mr-1 mr-sm-5 mr-lg-0">
+  <li><a href="//www.nj.gov/treasury/tohome.shtml">Treasurer Elizabeth Maher Muoio</a></li>
+  <li><a href="//www.nj.gov/treasury/">Treasury Home</a></li>
+  <li><a href="//www.nj.gov/treasury/news.shtml">Press Releases</a></li>
+  <li><a href="//www.nj.gov/treasury/socialmedia.shtml">Moderation Policy</a></li>
+  <li><a href="//www.nj.gov/treasury/administration/job-op/index.shtml">Job Opportunities</a></li>
+  <li><a href="//njfinlit.enrich.org/">Financial Wellness Education</a></li>    
+  <li><a href="//www.nj.gov/treasury/assets/contact/contact-treas.shtml">Contact Treasury</a></li>
+</ul>
+ 
+      </div>
+      <div class="col-lg-2 col-xl-2"> 
+        					<h3>Statewide</h3>
+					<ul class="statewide d-inline-block float-left mr-1 mr-sm-5 mr-lg-0">
+						<li class=""><a href="//nj.gov/governor/admin/about/">Governor Phil Murphy</a></li>
+						<li class=""><a href="//nj.gov/governor/admin/lt/">Lt. Governor Sheila Oliver</a></li>
+						<li><a href="//nj.gov/">NJ Home</a></li>
+						<li><a href="//nj.gov/nj/gov/njgov/alphaserv.html">Services A to Z</a></li>
+						<li><a href="//nj.gov/nj/gov/deptserv/">Departments/Agencies</a></li>
+						<li class="d-none d-lg-inline"><a href="https://nj.gov/faqs/"  aria-label="Frequently asked questions"><span aria-hidden="true">FAQs</span><span class="sr-only">Frequently Asked Questions</span></a></li>
+
+						<li><a href="//nj.gov/nj/feedback.html">Contact Us</a></li>
+						<li><a href="//nj.gov/nj/privacy.html">Privacy Notice</a></li>
+						<li><a href="//nj.gov/nj/legal.html">Legal Statement &amp; Disclaimers</a></li>
+						<li><a href="//nj.gov/nj/accessibility.html">Accessibility Statement</a></li>
+					</ul>
+					<img src="/nj/design/images/digital-nj.png" alt=" Digital NJ Logo (the letters N and J with the sillouette of the state of New Jersey knocked out)" class="digital-nj img-fluid max-width  float-left "/> 
+      </div>
+    </div>
+  </div>
+</footer>
+ 
+	<footer class="sonj" >
+		<div class="container-fluid"> 
+			<div class="row no-gutters justify-content-center">
+				<div class="col-sm-3 col-xl-2">
+	<a href="//www.nj.gov/treasury/administration/grau/" class="mb-4 mr-4 d-inline-block  float-left"><img src="//nj.gov/nj/design/images/opra.png"  alt="Open Public Records Act (OPRA)" class="opra" /></a>
+
+										<a href="https://my.state.nj.us/openam/UI/Login" class="mb-4 d-inline-block float-left"><img src="/nj/design/images/myNJ.png"  alt="My New Jersey Portal" class="mynj" /></a> 
+				</div>
+				<div class="col-sm-9 col-xl-8  text-right">
+					<a href="https://twitter.com/nj_taxation" class="ml-1"><i class="fab fa-twitter-square fa-2x sonj-gray"></i></a> 
+					<a href="https://www.facebook.com/njtaxation/" class="ml-1"><i class="fab fa-facebook-square fa-2x sonj-gray"></i></a> 
+					<a href="https://www.instagram.com/nj_taxation/" class="ml-1"><i class="fab fa-instagram fa-2x sonj-gray"></i></a> 
+					<a href="https://www.youtube.com/channel/UCtN4NzI6i32MmP8Z2pdlD4Q" class="ml-1"><i class="fab fa-youtube-square fa-2x sonj-gray"></i></a> 
+					<a href="https://www.linkedin.com/company/njtaxation/" class="ml-1"><i class="fab fa-linkedin fa-2x sonj-gray"></i></a><br> 
+			
+					
+					
+					
+					Copyright &copy; State of New Jersey, 1996-					
+					
+					<SCRIPT>
+					<!--
+					var year=new Date();
+					year=year.getYear();
+					if (year<1900) year+=1900;
+					document.write(year);
+					//-->
+					</SCRIPT>
+				    <noscript>
+						2019</noscript>
+					Department of the Treasury<br>
+				  Division of Taxation<br>
+				  PO Box 281<br>
+				  Trenton, NJ 08695-0281</div>
+			</div>
+			<div class="row no-gutters justify-content-center">
+				<div class="col-12 col-xl-10  text-right">Site Maintained by Division of Revenue and Enterprise Services</div>
+			</div>
+		</div>
+	</footer>
+	 
+
+
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	<!--[if lt IE 9]>
+			<script src="//oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+			<script src="//oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
+	<!-- Bootstrap core JavaScript -->
+	<!-- ================================================== -->
+	<script src="/nj/design/js/jquery-3.6.0.min.js" ></script>
+	<!-- /nj/design/js/jquery-3.3.1.min.js --> 
+	<script src="/nj/design/bootstrap/js/bootstrap.bundle.min.js" ></script>
+	<!-- /nj/design/js/bootstrap.bundle.min.js -->
+	<!-- new addition --> <script src="/nj/design/bootstrap/js/popper.min.js" ></script>
+	
+	
+	<!-- Font Awesome -->
+	<script defer src="/nj/design/fontawesome/js/all.js?v=5.14.0" ></script>
+	<!--<script defer src="//use.fontawesome.com/releases/v5.0.9/js/all.js" ></script>--> <!-- integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>-->
+	<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+	<script src="/nj/design/js/ie10-viewport-bug-workaround.js"></script>
+	
+	<script src="/nj/design/js/sonj-header.js"></script>
+
+	<script src="/nj/design/js/sticky-social.js"></script>
+	
+	<script src="/nj/design/js/navigation.js"></script>
+	
+	<script type="text/javascript" src="/nj/design/util/slick/slick.min.js"></script>
+	<script src="/nj/design/js/slick-init.js"></script>
+ 
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css">
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+<script>
+	$(document).ready(function() {
+		$('figure.highlight pre code').each(function(i, block) {
+			hljs.highlightBlock(block);
+		});
+	});
+</script> 
+<!-- jQuery --> 
+<script type="text/javascript" src="/treasury/assets/js/treas2.js" ></script> 
+<script>
+$(window).scroll(function () {
+                                if ($(this).scrollTop() > 50) {
+                                                $('#back-to-top').fadeIn();
+                                } else {
+                                                $('#back-to-top').fadeOut();
+                                }
+                });
+                // scroll body to 0px on click
+                $('#back-to-top').click(function () {
+                                $('#back-to-top').tooltip('hide');
+                                $('body,html').animate({
+                                                scrollTop: 0
+                                }, 800);
+                                return false;
+                });
+
+</script>
+<script type="text/javascript">
+/*<![CDATA[*/
+(function() {
+var sz = document.createElement('script'); sz.type = 'text/javascript'; sz.async = true;
+sz.src = '//siteimproveanalytics.com/js/siteanalyze_1468.js';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(sz, s);
+})();
+/*]]>*/
+
+</script> 
+<script type="text/javascript" src="/treasury/assets/datatable4/DataTables-1.10.18/js/jquery.dataTables.js"></script>
+<script type="text/javascript" src="/treasury/assets/datatable4/AutoFill-2.3.0/js/dataTables.autoFill.js"></script>
+<script type="text/javascript" src="/treasury/assets/datatable4/Buttons-1.5.2/js/dataTables.buttons.js"></script>
+<script type="text/javascript" src="/treasury/assets/datatable4/Buttons-1.5.2/js/buttons.colVis.js"></script>
+<script type="text/javascript" src="/treasury/assets/datatable4/Buttons-1.5.2/js/buttons.flash.js"></script>
+<script type="text/javascript" src="/treasury/assets/datatable4/Buttons-1.5.2/js/buttons.html5.js"></script>
+<script type="text/javascript" src="/treasury/assets/datatable4/Buttons-1.5.2/js/buttons.print.js"></script>
+<script type="text/javascript" src="/treasury/assets/datatable4/ColReorder-1.5.0/js/dataTables.colReorder.js"></script>
+<script type="text/javascript" src="/treasury/assets/datatable4/FixedColumns-3.2.5/js/dataTables.fixedColumns.js"></script>
+<script type="text/javascript" src="/treasury/assets/datatable4/FixedHeader-3.1.4/js/dataTables.fixedHeader.js"></script>
+<script type="text/javascript" src="/treasury/assets/datatable4/KeyTable-2.4.0/js/dataTables.keyTable.js"></script>
+<script type="text/javascript" src="/treasury/assets/datatable4/Responsive-2.2.2/js/dataTables.responsive.js"></script>
+<script type="text/javascript" src="/treasury/assets/datatable4/Responsive-2.2.2/js/responsive.bootstrap4.js"></script>
+<script type="text/javascript" src="/treasury/assets/datatable4/RowGroup-1.0.3/js/dataTables.rowGroup.js"></script>
+<script type="text/javascript" src="/treasury/assets/datatable4/RowReorder-1.2.4/js/dataTables.rowReorder.js"></script>
+<script type="text/javascript" src="/treasury/assets/datatable4/Scroller-1.5.0/js/dataTables.scroller.js"></script>
+<script type="text/javascript" src="/treasury/assets/datatable4/Select-1.2.6/js/dataTables.select.js"></script>
+<script type="text/javascript" src="/treasury/assets/js/moments.js"></script>
+<script type="text/javascript" src="/treasury/assets/js/datetime-moment.js"></script> 
+<!-- jQuery --> 
+<!-- Bootstrap Core JavaScript --> 
+<script>
+$(document).ready(function() {
+    $('#example1').DataTable( {
+		"order": [0, "asc"],
+		"paging": true,
+		"lengthMenu": [ [10, 25, 50, 75, 100, -1], [10, 25, 50, 75, 100, "All"] ],
+        "ordering": true,
+		"responsive": true,
+        "info":     false,
+        "searching": true,
+    } );
+} );
+    
+
+$(document).ready(function() {
+    $('#example2').DataTable( {
+		"order": [[ 1, "asc" ]],
+		"paging": false,
+        "ordering": true,
+		"responsive": true,
+        "info":     false
+    } );
+} );
+    
+    $(document).ready(function () {
+
+    $('#myModal').modal('show');
+
+});
+    
+        $(document).ready(function () {
+
+    $('#myModal3').modal('show');
+	var hash = window.location.hash;
+	var anchor = $('a[href$="'+hash+'"]');
+	if (anchor.length > 0){
+	anchor.click();
+	} 
+	});
+		
+</script>
+</body>
+</html>
