@@ -6,7 +6,7 @@ provider:
   name: aws
   runtime: python3.10
   memorySize: 2048
-  timeout: 28
+  timeout: 120
   architecture: arm64
   deploymentBucket:
     serverSideEncryption: AES256
@@ -18,8 +18,6 @@ provider:
         path: src/ui/
       anchorbot:
         path: src/anchor/
-  httpApi:
-    cors: true
 
 functions:
   ui:
@@ -29,10 +27,8 @@ functions:
         - handler.ask
       entryPoint:
         - "/lambda-entrypoint.sh"
-    events:
-      - httpApi:
-          path: /uibot/ask
-          method: get
+    url:
+      cors: true
   anchor:
     image:
       name: anchorbot
@@ -40,7 +36,5 @@ functions:
         - handler.ask
       entryPoint:
         - "/lambda-entrypoint.sh"
-    events:
-      - httpApi:
-          path: /anchorbot/ask
-          method: get
+    url:
+      cors: true
