@@ -18,7 +18,8 @@ provider:
         path: src/ui/
       anchorbot:
         path: src/anchor/
-
+      tdibot:
+        path: src/tdi/
 functions:
   ui:
     image:
@@ -32,6 +33,15 @@ functions:
   anchor:
     image:
       name: anchorbot
+      command:
+        - handler.ask
+      entryPoint:
+        - "/lambda-entrypoint.sh"
+    url:
+      cors: true
+  tdi:
+    image:
+      name: tdibot
       command:
         - handler.ask
       entryPoint:
