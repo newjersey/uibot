@@ -37,7 +37,7 @@ def ask(event, context):
     question = event["queryStringParameters"]['question']
     PROMPT = INSTRUCTIONS + question
     response = query_engine.query(PROMPT)
-    print(response);
+
     return {
       "answer": response.response
     }
