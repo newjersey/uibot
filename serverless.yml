@@ -15,36 +15,36 @@ provider:
   ecr:
     images:
       uibot:
-        path: src/ui/
+        path: src/
+        buildArgs:
+          DATA_PATH: ui/
       anchorbot:
-        path: src/anchor/
+        path: src/
+        buildArgs:
+          DATA_PATH: anchor/
       tdibot:
-        path: src/tdi/
+        path: src/
+        buildArgs:
+          DATA_PATH: tdi/
 functions:
   ui:
+    environment:
+      PROGRAM_NAME: Unemployment Insurance in New Jersey
     image:
       name: uibot
-      command:
-        - handler.ask
-      entryPoint:
-        - "/lambda-entrypoint.sh"
     url:
       cors: true
   anchor:
+    environment:
+      PROGRAM_NAME: ANCHOR program in New Jersey
     image:
       name: anchorbot
-      command:
-        - handler.ask
-      entryPoint:
-        - "/lambda-entrypoint.sh"
     url:
       cors: true
   tdi:
+    environment:
+      PROGRAM_NAME: Temporary Disability and Family Leave Insurance
     image:
       name: tdibot
-      command:
-        - handler.ask
-      entryPoint:
-        - "/lambda-entrypoint.sh"
     url:
       cors: true

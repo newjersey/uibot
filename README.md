@@ -47,3 +47,9 @@ python ask.py
 ## Chatbot example
 
 - simple chatbot hosted on github pages: https://newjersey.github.io/uibot/
+
+## Downloading website content to index
+
+```sh
+wget -r -np -nd -E -A html,pdf https://nj.gov/labor/myleavebenefits/
+```
