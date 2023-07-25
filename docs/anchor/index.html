@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/dompurify@3.0.5/dist/purify.min.js"></script>
     <link
       rel="stylesheet"
       href="https://innovation.nj.gov/app/njwds/dist/css/styles.css"
@@ -147,18 +149,28 @@
           var chatContainer = $("#chat-container");
           var promptElement = $("<small>")
             .addClass(
-              "border-left-05 margin-top-4 padding-left-1 display-block border-primary-lighter"
+              "border-left-05 margin-top-4 margin-bottom-2 padding-left-1 display-block border-primary-lighter"
             )
             .text(prompt);
+          var loadingElement = $("<p>")
+            .addClass("loading")
+            .text("One moment...");
+
+          setTimeout(function () {
+            chatContainer.append(loadingElement);
+          }, 1000);
 
           chatContainer.append(promptElement);
         }
 
         // Function to display the response in the chat container
         function displayResponse(response) {
+          var formatted = marked.parse(response);
+          var sanitized = DOMPurify.sanitize(formatted);
           var chatContainer = $("#chat-container");
-          var responseElement = $("<p>").text(response);
+          var responseElement = $("<div>").html(sanitized);
 
+          $("#chat-container .loading").remove();
           chatContainer.append(responseElement);
           chatContainer.scrollTop(chatContainer.prop("scrollHeight"));
 
